@@ -5,6 +5,7 @@ import Contact from './contact/Contact';
 import Projects from './projects/Projects';
 import Main from './main/Main';
 import Nav from './navigation/Nav';
+import ProjectCard from './project-card/ProjectCard';
 
 export {
   LandingPage,
@@ -13,5 +14,6 @@ export {
   Contact,
   Projects,
   Main,
-  Nav
+  Nav,
+  ProjectCard
 }
