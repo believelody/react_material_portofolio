@@ -72,7 +72,7 @@ class LandingPage extends Component {
       <Wrapper>
         <StyledGrid>
           <Cell col={12}>
-            <Img src={require('../../img/avatar.png')} />
+            <Img src="https://cdn4.iconfinder.com/data/icons/water_gaming_pack/512/afro_samurai.png" />
             <Banner>
               <BannerTitle>FullStack Developper</BannerTitle>
               <BannerHr />

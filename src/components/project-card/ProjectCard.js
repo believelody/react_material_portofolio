@@ -9,9 +9,8 @@ const ProjectCard = ({project}) =>
         <Card key={i} shadow={5} style={{minWidth: 400, margin: '10px auto'}}>
           <CardTitle
             style={{
-              color: '#fff',
-              height: '176px',
               color: 'black',
+              height: '176px',
               background: `url(${proj.img}) center / cover`
             }}
           >
