@@ -6,6 +6,9 @@ import Projects from './projects/Projects';
 import Main from './main/Main';
 import Nav from './navigation/Nav';
 import ProjectCard from './project-card/ProjectCard';
+import Education from './education/Education';
+import Skills from './skills/Skills';
+import Experience from './experience/Experience';
 
 export {
   LandingPage,
@@ -15,5 +18,8 @@ export {
   Projects,
   Main,
   Nav,
-  ProjectCard
+  ProjectCard,
+  Education,
+  Skills,
+  Experience
 }

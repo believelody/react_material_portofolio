@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { Layout, Header, Drawer, Content } from 'react-mdl';
 import { Main, Nav } from './components/Export';
@@ -14,10 +15,10 @@ class App extends Component {
     return (
       <div>
         <Layout style={{height: '100vh'}}>
-          <StyledHeader title="My Portofolio" scroll>
+          <StyledHeader title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">My Portofolio</Link>} scroll>
             <Nav />
           </StyledHeader>
-          <Drawer title="My Portofolio">
+          <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
             <Nav />
           </Drawer>
           <Content>
